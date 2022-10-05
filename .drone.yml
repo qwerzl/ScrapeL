@@ -12,5 +12,5 @@ steps:
   commands:
   - apk add git
   - git remote rm origin
-  - git remote add origin https://${GH_PAT}@github.com/qwerzl/ScrapeL.git
+  - git remote add origin https://"$GH_PAT"@github.com/qwerzl/ScrapeL.git
   - git push -u origin main
